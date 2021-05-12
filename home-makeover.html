@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/monokai.min.css"
+    />
+    <title>Amani Asali</title>
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
+    <script src="https://kit.fontawesome.com/4f207f3b95.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Top Navigation -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <img src="img/aa-logo.png" width="112" height="60" />
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-start">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.instagram.com/amani.asali/">
+            <img src="img/insta-icon.jpg" width="40" height="40" />
+          </a>
+        </div>
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.linkedin.com/in/amani-asali-703b33211/">
+            <img src="img/linkedin-icon.png" width="40" height="40" />
+          </a>
+        </div>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> About </a>
+
+          <a class="navbar-item" href="home-makeover.html"> Home Makeover </a>
+
+          <a class="navbar-item" href="rrondda-recovery-centre.html"> Rrondda Recovery Centre </a>
+
+          <a class="navbar-item" href="the-shipping-container.html"> The Shipping Container </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero is-fullheight">
+      <div class="container" id="gallery">
+        <div class="columns is-multiline is-mobile is-vcentered">
+          <div class="column has-text-centered is-full">
+            <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">House Makeover</h1>
+            <h5 class="subtitle is-6">
+              Images of when I first moved into this house and after I redisgned and redecorated the
+              interior
+            </h5>
+            <div id="slider">
+              <a class="control_next">></a>
+              <a class="control_prev"><</a>
+              <ul>
+                <li class="imageList"><img src="img/before-after-bedroom-1.png" /></li>
+                s
+                <li class="imageList"><img src="img/before-after-bedroom-2.png" /></li>
+                <li class="imageList"><img src="img/before-after-dining-room.png" /></li>
+                <li class="imageList"><img src="img/before-after-living-room.png" /></li>
+                <li class="imageList"><img src="img/before-after-reception.png" /></li>
+                <li class="imageList"><img src="img/before-after-dining-room-2.png" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/slider.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/monokai.min.css"
+    />
+    <title>Amani Asali</title>
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
+    <script src="https://kit.fontawesome.com/4f207f3b95.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Top Navigation -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <img src="img/aa-logo.png" width="112" height="60" />
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-start">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.instagram.com/amani.asali/">
+            <img src="img/insta-icon.jpg" width="40" height="40" />
+          </a>
+        </div>
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.linkedin.com/in/amani-asali-703b33211/">
+            <img src="img/linkedin-icon.png" width="40" height="40" />
+          </a>
+        </div>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> About </a>
+
+          <a class="navbar-item" href="home-makeover.html"> Home Makeover </a>
+
+          <a class="navbar-item" href="rrondda-recovery-centre.html"> Rrondda Recovery Centre </a>
+
+          <a class="navbar-item" href="the-shipping-container.html"> The Shipping Container </a>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div>
+        <div class="container">
+          <div class="columns is-multiline is-mobile is-vcentered">
+            <div class="column is-half">
+              <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">
+                Rrondda Recovery Centre
+              </h1>
+
+              <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator has-text-primary">
+                Academic Project
+              </h5>
+              <p class="bd-notification is-primary">
+                Situated near the bottom of the valley at the side of the River Rhondda, the Rhondda
+                Recovery Centre is a residential rehab clinic for women which aims to treat
+                malicious and unhealthy addictions that could be drug or alcohol related as well as
+                repurpose its patients with new skills. The core-focus of the recovery centre is to
+                provide its patients with continuous access to support, enlighten and teach them new
+                skills and through togetherness, aims to build a recovery community with individuals
+                that are there to support each other. <br />
+                <br />
+                As a consequence of the successive series of lockdowns we have faced over the last
+                year in Britain, the Royal College of Psychiatrists has indicated that the risk of
+                building long-term unhealthy addictions has doubled, and that the services currently
+                in place to treat people are in desperate need of funding. Having worked with the
+                NHS and being aware of these issues, is what led me to investigate the possibility
+                and feasibility of designing the Rhondda Recovery Centre, as the precedents as well
+                as necessity to have such a facility as implied above certainly exist. <br />
+                <br />
+                From an interior design perspective, I wanted to challenge myself by undertaking a
+                project which would truly require thorough and detailed building analysis to serve
+                its patients and ultimately, a design that supports people. Predominantly, this
+                meant investigating existing recovery centres and the functions they provide, such
+                as Castle Craig in Scotland, as well as deep diving into what interior features
+                affect the well-being of an individual positively and negatively, which I also
+                investigated as part of my dissertation, and how wooden furniture evidently improved
+                the mental health of people. <br />
+                <br />
+                The location of the Recovery Centre was chosen as its close the River Rhondda, which
+                is easily accessible by transport as its nearby the centre of Llwynypia. A sense of
+                nature surrounding the building tremendously helps mental well-being and existing
+                facilities such as Equine-assisted therapy are already in-place, where patients can
+                involve themselves in activities with horses. In addition, its location also allows
+                for drumming therapy, which also heals, without having to worry about disturbing
+                surrounding facilities and/or inhabitants as the centre is out-of-town and secluded.
+              </p>
+
+              <button class="button is-large is-primary" type="button">
+                <span class="icon is-medium">
+                  <i class="fab fa-wordpress-simple"></i>
+                </span>
+                <span>Explore</span>
+              </button>
+              <button
+                class="button is-large is-warning"
+                onclick="downloadPoster('img/1.png')"
+                type="button"
+              >
+                <span class="icon is-medium">
+                  <i class="fas fa-download"></i>
+                </span>
+                <span>Download Poster</span>
+              </button>
+            </div>
+
+            <div class="column is-half">
+              <figure>
+                <img src="img/the-recovery-centre-album.png" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+
+    <script>
+      function downloadPoster(downloadURL) {
+        location = downloadURL;
+      }
+    </script>
+  </body>
+</html>

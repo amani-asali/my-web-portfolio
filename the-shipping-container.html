@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/monokai.min.css"
+    />
+    <title>Amani Asali</title>
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/material-design-iconic-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
+    <script src="https://kit.fontawesome.com/4f207f3b95.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Top Navigation -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <img src="img/aa-logo.png" width="112" height="60" />
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-start">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.instagram.com/amani.asali/">
+            <img src="img/insta-icon.jpg" width="40" height="40" />
+          </a>
+        </div>
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.linkedin.com/in/amani-asali-703b33211/">
+            <img src="img/linkedin-icon.png" width="40" height="40" />
+          </a>
+        </div>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> About </a>
+
+          <a class="navbar-item" href="home-makeover.html"> Home Makeover </a>
+
+          <a class="navbar-item" href="rrondda-recovery-centre.html"> Rrondda Recovery Centre </a>
+
+          <a class="navbar-item" href="the-shipping-container.html"> The Shipping Container </a>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div>
+        <div class="container">
+          <div class="columns is-multiline is-mobile is-vcentered">
+            <div class="column is-half">
+              <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">
+                The Shipping Container
+              </h1>
+
+              <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator has-text-primary">
+                Academic Project
+              </h5>
+              <p class="bd-notification is-primary">
+                This project investigates and analyses the possibility of turning the Cardiff
+                boneyard into a fashion show venue. I opted to pursue this project as I am attracted
+                to this career and subject that is fashion. It is close to my heart and modelling as
+                well as participating in fashion shows is something that I used to do when I was
+                younger. <br />
+                <br />
+                I strongly feel that there is a lack-of professional and academic
+                facilities/locations to exhibit fashion in Cardiff and used this project as an
+                opportunity to demonstrate and convey that the containers, land formation and
+                overall boneyard can be used, designed, and transitioned into a fashion show venue
+                where both professionals and students have access to learn about as well as produce
+                and promote fashion shows by using the best practices available, hands-on training
+                and thinking sustainably. <br />
+                <br />
+                Personally, I have been In multiple fashion shows, both informally and formally, I
+                still have a large collection of pictures of the venues that I have been in and
+                understand the functions as well as features of these venues which led me to
+                investigate the feasibility of designing the boneyard to be a fashion show venue
+                through my learnings of interior and architectural design; combining both fields
+                that I am highly intrigued in aims of putting together a great design. Not only is
+                the combination of these two sectors (fashion and interior design) something that
+                excites me, but it is also something that proved to be a challenge to design in this
+                age due to the excessive requirement of physical activities and close proximity of
+                other people and models which could, for the foreseeable future, go against the
+                COVID-19 rules regarding safety and gatherings. I have attempted to address the
+                guidelines set by introducing health and safety safeguards in certain facilities
+                such as the lavatory and reception. Not to mention, the audience that such lavish
+                events would attract also require extensive security measures. <br />
+                <br />
+                All in all, the venues accessibility, function(s), features and potential issues
+                have all drawn out the best of my artistic ability as well as the necessity for
+                critical thinking and the project is definitely something to continuously work on,
+                improve, re-iterate over both terms.
+              </p>
+
+              <button
+                class="button is-large is-primary"
+                onclick="location.href= 'https://amaniasali.wordpress.com/2020/12/18/the-shipping-container/'"
+                type="button"
+              >
+                <span class="icon is-medium">
+                  <i class="fab fa-wordpress-simple"></i>
+                </span>
+                <span>Explore</span>
+              </button>
+              <button
+                class="button is-large is-warning"
+                onclick="downloadPoster('img/1.png')"
+                type="button"
+              >
+                <span class="icon is-medium">
+                  <i class="fas fa-download"></i>
+                </span>
+                <span>Download Poster</span>
+              </button>
+            </div>
+
+            <div class="column is-half">
+              <figure>
+                <img src="img/the-shipping-container-album.png" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <script>
+      function downloadPoster(downloadURL) {
+        location = downloadURL;
+      }
+    </script>
+  </body>
+</html>
